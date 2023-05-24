@@ -161,7 +161,8 @@ public class ingresar_BuscarVehiculo extends JFrame {
 	}
 
 	public static void main(String[] args) {
-		SwingUtilities.invokeLater(new Runnable() {
+		SwingUtilities.invokeLater(new Runnable() { //se usa para programar una tarea, es de la biblioteca swing
+			// comunmente se utiliza un parametro runnable para especificar que se desea ejecutar tarea.
 			public void run() {
 				ingresar_BuscarVehiculo concesionarioGUI = new ingresar_BuscarVehiculo();
 				concesionarioGUI.setVisible(true);
