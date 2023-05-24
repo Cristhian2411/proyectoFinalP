@@ -12,7 +12,7 @@ public class Camion extends Vehiculo1 {
 	private FrenosAire frenosAire;
 	private int capacidadCarga;
 	private int numeroEjes;
-	private TipoCamion tipoCamion;
+	private TipoCamion tipoCamion;// su madre
 
 	public Camion(String marca, String modelo, Estado estado, int cambios, int velMax, int cilindraje,
 			TipoCombustible tipoCombustible, Transmision transmision, ABS abs, FrenosAire frenosAire,
