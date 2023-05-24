@@ -89,7 +89,8 @@ public class RegistroEmpleado extends JFrame {
                 String correo = textFieldCorreo.getText();
 
                 // Guardar los datos del empleado en el ArrayList
-                String empleado = "Nombre: " + nombre + "\nApellido: " + apellido + "\nCédula: " + cedula + "\nCorreo: " + correo;
+                String empleado = "Nombre: " + nombre + "\nApellido: " + apellido + 
+                		"\nCédula: " + cedula + "\nCorreo: " + correo;
                 listaEmpleados.add(empleado);
 
                 // Limpiar los campos después de guardar
