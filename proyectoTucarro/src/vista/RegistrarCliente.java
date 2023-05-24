@@ -95,7 +95,7 @@ public class RegistrarCliente extends JFrame {
 			public void actionPerformed(ActionEvent e) {
 				String nombre = nombre1.getText();
 				String apellido = apellido1.getText();
-				String cedula = cedula1.getText();
+				String cedula = cedula1.getText();//ejemplito
 				String correo = correo1.getText();
 				String contraseña=contraseña1.getText();
 
@@ -119,7 +119,7 @@ public class RegistrarCliente extends JFrame {
 		
 		lblNewLabel_5 = new JLabel("Registrar cliente");
 		lblNewLabel_5.setFont(new Font("Times New Roman", Font.PLAIN, 15));
-		lblNewLabel_5.setBounds(121, 0, 204, 23);
+		lblNewLabel_5.setBounds(166, 0, 159, 23);
 		contentPane.add(lblNewLabel_5);
 
 		contentPane.setFocusTraversalPolicy(
